@@ -11,11 +11,11 @@ public class Dosen extends Civitas implements PesertaKelas, Pengajar{
     }
 
     public void ikutPenelitian() {
-        System.out.println("Dosen dengan " + nip + " sedang mengikuti penelitian");
+        System.out.println("Dosen dengan NIP " + nip + " sedang mengikuti penelitian");
     }
     
     public void masukKelas(){
-        System.out.println("Dosen yang memiliki " + gaji + " sedang masuk kelas");
+        System.out.println("Dosen yang memiliki gaji " + gaji + " sedang masuk kelas");
     }
 
     public void mengajar(String matkul) {
