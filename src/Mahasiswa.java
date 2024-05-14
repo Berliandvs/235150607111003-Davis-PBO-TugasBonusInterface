@@ -16,11 +16,11 @@ public class Mahasiswa extends Civitas implements PesertaKelas{
     }
 
     public void pasrah() {
-        System.out.println("Mahasiswa yang memiliki " + ipk + " sedang menyerah karena memiliki pressure dengan " +golUkt);
+        System.out.println("Mahasiswa yang memiliki " + ipk + " sedang menyerah karena memiliki pressure dengan uktnya di golongan " +golUkt);
     }
 
     public void mengikutiOrganisasi(String nama){
-        System.out.println("Mahasiswa " + nama + " mengikuti organiasasi kampus");
+        System.out.println("Mahasiswa dengan nama " + nama + " mengikuti organisasi BEM kampus");
     }
 
     public void presentasi() {
