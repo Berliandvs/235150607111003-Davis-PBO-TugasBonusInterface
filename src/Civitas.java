@@ -12,7 +12,7 @@ public abstract class Civitas {
     }
 
     public void makanDiKantin(String kantin) {
-        System.out.println(nama + " sedang makan di " + kantin + " kantin ");
+        System.out.println(nama + " sedang makan di " + kantin + " kantin");
     }
 
     public void mainGameCorner() {
@@ -20,6 +20,7 @@ public abstract class Civitas {
     }
 
     public void naikLift() {
-        System.out.println(nama + " sedang menggunakan lift "+jenisKelamin);
+        String gender = jenisKelamin ? "pria" : "wanita";
+        System.out.println(nama + " sedang menggunakan lift "+gender);
     }
 }
