@@ -12,10 +12,10 @@ public class Resepsionis extends Civitas {
         this.gaji = gaji;
     }
     public void melayani() {
-        System.out.println("Resepsionis dengan id " + idResepsionis + " dan memiliki jabatan " + jabatan + "sedang melayani");
+        System.out.println("Resepsionis dengan id " + idResepsionis + " dan memiliki jabatan " + jabatan + " sedang melayani");
     }
 
     public void melapor() {
-        System.out.println("Resepsionis dengan gaji " + gaji + "sedang melapor untuk pengajuan kenaikan gaji");
+        System.out.println("Resepsionis dengan gaji " + gaji + " sedang melapor untuk pengajuan kenaikan gaji");
     }
 }
